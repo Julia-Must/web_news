@@ -1,6 +1,5 @@
 import React from 'react';
-import App from 'components/App';
-import {Item, Title, Host, ExternalLink, Description, CommentLink, ListWrapper } from './styles';
+import {Item, ExternalLink, Description, CommentLink, ListWrapper } from './styles';
 
 const LINK_REL = 'noopener noreferrer nofollow';
 
@@ -24,7 +23,7 @@ const ListItem = (props) => {
             </Description>
         </div>
             <div className="image">
-                <img src={props.avatar_url}  alt="image" />
+                <img src={props.avatar_url}  alt="" />
             </div>
         </Item>
         </ListWrapper>
@@ -54,7 +53,7 @@ const ListItem1 = (props) => {
                     </Description>
                 </div>
                 <div className="image">
-                    <img src={props.avatar_url1}  alt="image" />
+                    <img src={props.avatar_url1}  alt="" />
                 </div>
             </Item>
         </ListWrapper>
@@ -74,10 +73,8 @@ const ListItem2 = (props) => {
             </CommentLink>
             <ExternalLink>
 
-                <div className="post_img"
-                     // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
-                >
-                    <img src={props.avatar_url2} className="App-logo" alt="logo" />
+                <div className="post_img">
+                    <img src={props.avatar_url2} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -102,7 +99,7 @@ const ListItem3 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url3} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url3} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -127,7 +124,7 @@ const ListItem4 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url4} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url4} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -152,7 +149,7 @@ const ListItem5 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url5} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url5} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -177,7 +174,7 @@ const ListItem6 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url6} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url6} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -202,7 +199,7 @@ const ListItem7 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url7} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url7} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -227,7 +224,7 @@ const ListItem8 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url8} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url8} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>
@@ -252,7 +249,7 @@ const ListItem9 = (props) => {
                 <div className="post_img"
                      // style={{backgroundImage: `url(${props.image1})`, height: 200 }}
                 >
-                    <img src={props.avatar_url9} className="App-logo" alt="logo" />
+                    <img src={props.avatar_url9} className="App-logo" alt="" />
                 </div>
             </ExternalLink>
             <Description>

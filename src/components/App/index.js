@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import GlobalStyles from '../../styles/globals';
 import { ThemeProvider } from 'styled-components';
 import {colorsLight} from 'styles/palette';
@@ -38,12 +38,9 @@ function App() {
             });
 
 
-
     const [name, setName] = useState('');
     const [html_url, setUserHtmlUrl] = useState('');
     const [avatar_url, setAvatar] = useState('');
-    const [error, setError] = useState(null);
-
 
 
      const setData = ({name, avatar_url, html_url }) => {
@@ -66,9 +63,6 @@ function App() {
     const [name1, setName1] = useState('');
     const [html_url1, setUserHtmlUrl1] = useState('');
     const [avatar_url1, setAvatar1] = useState('');
-    const [error1, setError1] = useState(null);
-
-
 
   const setData1 = ({name, avatar_url, html_url }) => {
     setName1(name);
@@ -76,7 +70,6 @@ function App() {
     setUserHtmlUrl1(html_url);
 
 };
-
 
 
     GitHubDevApi.getResource(`https://api.github.com/users/${JSON_QUERY2}`)
@@ -91,8 +84,6 @@ function App() {
     const [name2, setName2] = useState('');
     const [html_url2, setUserHtmlUrl2] = useState('');
     const [avatar_url2, setAvatar2] = useState('');
-
-    const [error2, setError2] = useState(null);
 
 
 
@@ -118,9 +109,6 @@ function App() {
     const [html_url3, setUserHtmlUrl3] = useState('');
     const [avatar_url3, setAvatar3] = useState('');
 
-    const [error3, setError3] = useState(null);
-
-
 
     const setData3 = ({name, avatar_url, html_url }) => {
         setName3(name);
@@ -143,9 +131,6 @@ function App() {
     const [html_url4, setUserHtmlUrl4] = useState('');
     const [avatar_url4, setAvatar4] = useState('');
 
-    const [error4, setError4] = useState(null);
-
-
 
     const setData4 = ({name, avatar_url, html_url }) => {
         setName4(name);
@@ -166,9 +151,6 @@ function App() {
     const [name5, setName5] = useState('');
     const [html_url5, setUserHtmlUrl5] = useState('');
     const [avatar_url5, setAvatar5] = useState('');
-
-    const [error5, setError5] = useState(null);
-
 
 
     const setData5 = ({name, avatar_url, html_url }) => {
@@ -191,9 +173,6 @@ function App() {
     const [html_url6, setUserHtmlUrl6] = useState('');
     const [avatar_url6, setAvatar6] = useState('');
 
-    const [error6, setError6] = useState(null);
-
-
 
     const setData6 = ({name, avatar_url, html_url }) => {
         setName6(name);
@@ -214,9 +193,6 @@ function App() {
     const [name7, setName7] = useState('');
     const [html_url7, setUserHtmlUrl7] = useState('');
     const [avatar_url7, setAvatar7] = useState('');
-
-    const [error7, setError7] = useState(null);
-
 
 
     const setData7 = ({name, avatar_url, html_url }) => {
@@ -239,9 +215,6 @@ function App() {
     const [html_url8, setUserHtmlUrl8] = useState('');
     const [avatar_url8, setAvatar8] = useState('');
 
-    const [error8, setError8] = useState(null);
-
-
 
     const setData8 = ({name, avatar_url, html_url }) => {
         setName8(name);
@@ -262,9 +235,6 @@ function App() {
     const [name9, setName9] = useState('');
     const [html_url9, setUserHtmlUrl9] = useState('');
     const [avatar_url9, setAvatar9] = useState('');
-
-    const [error9, setError9] = useState(null);
-
 
 
     const setData9 = ({name, avatar_url, html_url }) => {
